@@ -62,9 +62,9 @@ UserSchema.method('create_jwt', async function (isRefresh) {
     }
 });
 
-const User = mongoose.model(
+const Users = mongoose.model(
     'users',
     UserSchema
 );
 
-export default User;
+export default Users;
